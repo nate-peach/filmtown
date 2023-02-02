@@ -2,8 +2,8 @@ import { useState, useEffect } from 'react';
 import './App.css'
 import SearchIcon from './search.svg';
 import MovieCard from './MovieCard';
+import API_URL from '../.env';
 
-const API_URL = 'https://www.omdbapi.com?apikey=a9ca24c8'
 
 const movie1 = {
     "Title": "Spirited Away",
